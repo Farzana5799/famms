@@ -1,0 +1,327 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+   font-family: 'Poppins', sans-serif;
+  }
+  container{
+    width: 1140px;
+  }
+  h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat', sans-serif;
+  
+  }
+  /* main css start */
+  .header-section {
+    background: white;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+  .header-section  img {
+    height: auto;
+    width: 130px;
+  }
+  .header-section .navbar-nav ul{
+    margin: auto;
+  }
+  .header-section .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    color: #002c3e;
+    text-transform: uppercase;
+  }
+  .header-section .nav-link:hover{
+   
+    color: #f7444e;
+   
+  }
+  .header-section .h-icon{
+    
+  }
+  .header-section .h-icon i {
+    color: white;
+    background: #002c3e;
+    border-radius: 50%;
+    font-size: 20px;
+    height: 42px;
+    width: 43px;
+    line-height: 42px;
+    margin-left: 10px;
+    text-align: center;
+   transition: .05s;
+  }
+  .header-section .h-icon i:hover {
+    color: white;
+    background:#f7444e;
+   transition: .05s;
+   
+  }
+  /* inner section   */
+  .inner_page_head{
+    
+        background: #f7444e;
+        text-align: center;
+        color: #fff;
+        padding-top: 50px;
+        padding-bottom: 40px;
+       
+  }
+  .inner_page_head h1{
+    font-size: 42px;
+    font-weight: 800;
+  }
+/* text section  */
+.part_section_a{
+  margin-top: 60px;
+  margin-bottom: 50px;
+   
+}
+.part_section_a h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    font-family:playfair;
+}
+
+
+/* our mission section  */
+.mission_section{
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.mission_section .text-part{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.mission_section .text-part h3{
+  font-size: 35px;
+  font-weight: bold;
+  color:#002c3e;
+ 
+}
+
+.mission_section .text-part h5{
+  margin-left:400px ;
+  font-weight: 300;
+  color:#002c3e;
+  margin-top: 57px;
+ 
+}
+.mission_section .text-part p{
+  color:#002c3e;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  padding: 10px 15px 15px 10px;
+
+}
+.mission_section .text-part-2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.mission_section .text-part-2 img {
+  height: 400px;
+  width: 95%;
+}
+
+/* line section */
+.line_section .line{
+  height:1px ;
+  width:100% ;
+  background-color: #fa0707;
+}
+
+/*  inner part section  */
+.arrival_section{
+  background-color: #d4ced0;
+ 
+}
+.box_part{
+
+  padding: 271px 45px;
+  position: relative; 
+}
+.arrival_img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+}
+.arrival_img img{
+  height: 100%;
+  width: 100%;
+ 
+}
+.arrival_img  h2{
+margin-left: 600px;
+margin-top: -414px;
+font-size: 3.5rem;
+font-weight: bold;
+
+}
+.arrival_img p{
+padding: 15px 21px;
+margin-left: 591px;
+}
+
+.button{
+display: inline-block;
+padding: 10px 40px;
+background-color: #f7444e;
+border: 1px solid #f7444e;
+color: #ffffff;
+border-radius: 0;
+margin-top: 20px;
+margin-bottom: 70px;
+margin-left: 600px;
+transition: all 0.3s;
+}
+.button:hover {
+background-color: transparent;
+color: #f7444e;
+transition: .05s;
+
+}
+
+
+/* footer section */
+.footer-part {
+    width: 100%;
+    height: 360px;
+    background: #002c3e;
+    padding: 70px 0px;
+  }
+    .footer-part .para-part{
+    color: white;
+    
+    }
+    .footer-part .para-part p {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 30px;
+        margin-top: 30px;
+    }
+    .footer-part  h5 {
+        color: white;
+        font-weight: 700;
+        font-size: 18px;
+        margin-left: 19px;
+        text-transform: uppercase;
+    }
+  .footer-part .icon-part{
+    display: flex;
+  }
+  
+  .footer-part .icon-a{
+   color:white;
+   padding: 10px 15px;
+   background:rgb(26, 105, 231) ;
+   margin-left: 10px;
+   font-size: 20px;
+   transition: .5s;
+  }
+  
+  .footer-part .icon-a:hover{
+    color:rgb(26, 105, 231) ;
+    background: wheat;
+    transition: .5s;
+   }
+  .footer-part .icon-b{
+    color:white;
+    padding: 10px 15px;
+    background:rgb(4, 68, 171);
+    margin-left: 10px;
+    font-size: 20px;
+    transition: .5s;
+   }
+   .footer-part .icon-b:hover{
+    color:rgb(4, 68, 171) ;
+    background: wheat;
+    transition: .5s;
+   }
+  
+   .footer-part .icon-d{
+    color:white;
+    padding: 10px 15px;
+    background:red;
+    margin-left: 10px;
+    font-size: 20px;
+    transition: .5s;
+   }
+   .footer-part .icon-d:hover{
+    color:red ;
+    background: wheat;
+    transition: .5s;
+   }
+  
+   .footer-part .icon-e{
+    color:white;
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-image: linear-gradient(red ,blue);
+    font-size: 20px;
+    transition: .5s;
+   }
+  
+   .footer-part .icon-e:hover{
+    color:rebeccapurple ;
+    background: wheat;
+    transition: .5s;
+   }
+   .footer-part .icon-f{
+    color:white;
+    padding: 10px 15px;
+    margin-left: 10px;
+   background: rgba(86, 9, 9, 0.769);
+   font-size: 20px;
+   transition: .5s;
+   }
+   .footer-part .icon-f:hover{
+    color:rgba(86, 9, 9, 0.769) ;
+    background: wheat;
+    transition: .5s;
+   }
+  
+   .footer-part .btn-info {
+    font-size: 18px;
+    padding: 7px 15px;
+    background: dodgerblue;
+    transition: .5s;
+  }
+  .footer-part .btn-info:hover{
+    color:black ;
+    background:#94CDD5;
+    transition: .5s;
+   }
+   .footer-part .part-a{
+   
+   }
+   .footer-part ul{
+   list-style: none;
+   color: white;
+   line-height: 30px;
+   }
+   .footer-part ul li{
+   font-weight: 400;
+   font-size: 16px;
+   
+   }
+   .footer-part .end-part{
+   color: white;
+   text-align: center;
+   padding: 20px 0px;
+   }
+   .footer-part .end-part p{
+   
+     }
+     .footer-part .get  h5 {
+      color: white;
+      font-weight: 700;
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-left: 8px;
+  }
+ 
